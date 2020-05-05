@@ -242,11 +242,13 @@ header.bottom-offset {
 
 .screenshot {
     text-align: center;
+    margin-top: 5rem;
 }
 
 @media (min-width: 580px) {
     .screenshot {
         text-align: right;
+        margin-top: 0;
     }
 }
 
