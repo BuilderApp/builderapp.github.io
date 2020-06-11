@@ -174,7 +174,8 @@ header.bottom-offset {
     background-repeat: repeat-x;
     background-size: contain;
     position: absolute;
-    width: 100%
+    width: 100%;
+    z-index: -1;
 }
 
 /* App description */
@@ -404,6 +405,48 @@ ul.footer-list {
 
 .privacy a:hover {
     opacity: 0.7;
+}
+
+/* Changelog */
+
+.changelog-item h1.changelog-title {
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.2rem;
+    padding: 2rem 0 0.6rem 0;
+    margin-bottom: 0.5rem;
+}
+
+.changelog-item h2.changelog-date {
+    font-size: 1.4rem;
+    font-weight: 100;
+    font-style: italic;
+    padding: 0 0 .5rem 0;
+    letter-spacing: 0.2rem;
+    margin-bottom: 1.1rem;
+}
+
+.changelog-item .changelog-content {
+    padding: 1.5rem 0 2rem 0;
+}
+
+.changelog-content ul {
+    list-style: inside;
+}
+
+.changelog-content ul li {
+    margin-bottom: 0.5rem;
+}
+
+.changelog-content code {
+    padding: .2rem .5rem;
+    margin: 0 .2rem;
+    font-size: 90%;
+    white-space: nowrap;
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    color: #99a2a9;
 }
 
 /* Dark mode */
